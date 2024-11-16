@@ -1,0 +1,2 @@
+# extensao_troca_de_guias_sem_roubar_foco_do_sistema_operacional
+Extensão para navegadores baseados em chromium permite a troca de guias - abas sem que roube o foco do sitema operacional para o navegador. Para utilizar a extensão basta enviar comandos através do console de uma página que esteja carregada com um site/domínio ou executar através de comandos vindos de bibliotecas de automações com python.
