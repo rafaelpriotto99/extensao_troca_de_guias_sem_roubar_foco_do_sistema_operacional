@@ -3,8 +3,6 @@
 
 Para utilizar a extensão basta enviar comandos através do console de uma página que esteja carregada com um site/domínio ou executar através de comandos via contexto javascript provenientes de bibliotecas de automações com python como selenium webdriver, playwright etc...
 
-Após instalar verifique o ID da extensão para poder enviar os comandos.
-
 Utilização manual pelo DevTools:
 Carregue qualquer site na aba principal que você escolher para enviar os comandos, pressine as teclas CTRL + SHIFT + I ou clique com o botão direito em qualquer parte da página e na parte inferior do menu clique em inspecionar para abrir o DevTools.
 
@@ -25,7 +23,7 @@ driver = seu contexto de execução
 ```
 def trocar_de_guias_sem_focar(state):
     try:
-        # Substitua pelo ID da sua extensão de controle
+        # Substitua pelo ID da extensão de controle caso seja diferente
         id_da_extensao_de_controle = 'epkgabfgddgholeldoklihgjlkikgpcn'
         # @@@ VERSÃO PARA SELENIUM WEBDRIVER COM PYTHON:
         response_status = driver.execute_script(f"""
