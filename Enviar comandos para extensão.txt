@@ -1,0 +1,9 @@
+\\ Se necessário troque "epkgabfgddgholeldoklihgjlkikgpcn" pelo ID da extensão de controle
+
+chrome.runtime.sendMessage("epkgabfgddgholeldoklihgjlkikgpcn", { action: "ativartab1" }, (response) => {
+  console.log(response.status);
+});
+
+chrome.runtime.sendMessage("epkgabfgddgholeldoklihgjlkikgpcn", { action: "ativartab2" }, (response) => {
+  console.log(response.status);
+});

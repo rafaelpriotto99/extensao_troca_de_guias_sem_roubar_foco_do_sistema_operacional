@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Extensão de Controle",
+  "version": "1.3",
+  "description": "Controle as abas do navegador.",
+  "permissions": [
+    "management",
+    "scripting",
+    "tabs"
+  ],
+  "externally_connectable": {
+    "matches": ["*://*/*"]
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsWnXmDftyYSUNERfYNNK4D24vgpnkChyI58uQC8rzlwm6xMR9i2pKyrcd+R3fFgIoGhJQ0owb+uQxEe/adgx50xmlDyQ+gH1RvqCVuM+V+eHA1dNeu91+NE+S8W7C/gmWUP2fwK4io0I2bFEhQbp7EJ98RP9c7WmE3qjdgD75dRQbiyowpJQIljnngYUai8VURYscS/FPJ7u6Wt3lus4gY3gCNgymZKDJKphGlKUEU3XUvtBq9Dytcpx82ONY6jcE/DWK/0vHgEi8ljvNDM3ENlZ2VGaExtTNNIWAsGj1D0tNH1oz+SCQoWXe2zG2ahGENVW3NSP884vH8sbZRgF9AgMBAAECggEADPgs3jtRhcSw1XZ8OHUxIU/RimdMThBDH9VuSGnUXQqRw6lbrj7RdTNWUdd79SkvNfYdFR8WEzAiZioW+UKs1nX/yTkfqkks8ciW31PHrl3eLEHRSzp3BMowh4dkPrp/3WNwa/12nRcMvBLgJmqClKqMwpZgL1pfxSakLZbUjLZ85NXCDhmV6wtpKuxbOAKHhCOIf89ak5d3k7Xy1u7lZEpKYigG8F7hvYoijo68Xza8onNSujgqT4/A2KphoV78bHG9s7PmpmmwuB0Tw3FVENHX9Bl9+w36lA6PH3L9SHF2JPfH/fm4qkjS8nsBXkSvwS40doQL7mduJHERpgWQWQKBgQDqR/BRIm8PlIkuuzo3NyLRGBSNwjsfSH9iWkAWo9jHD0asZ2Yz0QxZy7rQw8qAwEQqzdwCMaZUCEyfKOYB95bwtfRzMpcUS0UKL3R1YjFvDRAXCG8shZrGsJmMWbgmDJubQGRZtH0JerqWG6ay3gkRhGW2xdgZUeqmFWbVCBWGXwKBgQC8VNPHOf+SSn7R03mBHXAUd8Af6qH2OyBIrqisDV0US1Si7O7lCvI3WoHxYHY6N1C6fS5TWFzPg5ch6cfc2H/tkmwAGxHnLKVaKCq7EvKEKnefnH96gMiNVMvPtO2CVILLT7gbgP6fDFscALCcLlbYXhpJQPJFPal/5d/zhoVtowKBgQCUm4tJu+Dc7ihSdzrHOXchUPgAr7rW7iK3XW4Xrljcc8ktpO0EY09FSmC2+eri3pKe4DP1RE8wMI+ByeyURNv+1jw4Mlf47IHfoxhpOR8IRS32nkf+4sS50d2kVGjl4ct2oFLHQCCsOahPfTyxavwvm171n+uiq/5+2UaATP9yWwKBgCU2CYYiwomQKJCi3S4St/ODWbW0sX2qXw2dXPxpw4tf+wAaGnWs/QDM5EHiElocVdoTI9UZ73SdBn6P54qOSHCTbr1ym832d1FiAFdoPfy5O1uRG2sECRxLtd17XTZUJmevf6wHh8e7NEFLLZoeWdB0f3Mb3wKpVVVNATvnx3NLAoGAAd00oLZjI5JNVK0aAe4BfrTc4Dha4m9nWxN4zGi028+GOYU9p8iVMUD6seOzrRTYeoOEMLWTin8eq1I6zkBhx/hsAeUwCUfi/J/YLcPMtLAuXC90hoH9PM+NkrPlIzXnvcPMPgV2fg0o6C1eKaSuOfH9wn2NkpoCfA01qN+b/LE="
+}
